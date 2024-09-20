@@ -1,0 +1,24 @@
+Here are some basic points for an introduction to system design:
+
+1. **Scalability**: Design systems that handle increasing workloads (vertical and horizontal scaling).
+2. **Availability**: Ensure the system is accessible and operational most of the time.
+3. **Reliability**: Ensure the system performs consistently and correctly over time.
+4. **Latency**: Minimize the time it takes to process a request.
+5. **Throughput**: Maximize the number of requests processed in a given time.
+6. **Consistency**: Ensure data remains consistent across multiple nodes (especially in distributed systems).
+7. **Partitioning**: Split data or services across multiple databases/servers to improve performance.
+8. **Caching**: Use in-memory stores to speed up read-heavy operations.
+9. **Load Balancing**: Distribute traffic across multiple servers to avoid bottlenecks.
+10. **Database Design**: Choose between SQL (relational) and NoSQL (non-relational) databases based on use cases.
+
+
+**Horizontal Scaling** (Scale Out):
+- Adding more machines or nodes to a system (e.g., adding more servers to handle traffic).
+- Distributes the load across multiple instances.
+- Often requires load balancing.
+- More fault-tolerant and easier to scale indefinitely.
+
+**Vertical Scaling** (Scale Up):
+- Increasing the resources (CPU, RAM, etc.) of a single machine.
+- Limited by hardware constraints.
+- Simpler but can lead to a single point of failure.
